@@ -1,0 +1,26 @@
+body{
+    height: 100vh;
+    margin: 0;
+    font-family: Oxanium;
+    background-size: cover;
+    background-image: url(./img/Apex\ world.png);
+    background-position: center;
+}
+
+.h2{
+    font-size: 24px;
+    color: #fff;
+    gap: 20px;
+    
+}
+
+.cabecalho{
+    color: #fff;
+    justify-content: space-between;
+    display: flex;
+}
+
+.header{
+    display: flex;
+    gap: 20px;
+}
