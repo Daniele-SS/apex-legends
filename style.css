@@ -1,4 +1,4 @@
-body{
+body {
     height: 100vh;
     margin: 0;
     font-family: Oxanium;
@@ -6,25 +6,26 @@ body{
     background-image: url(./img/Apex\ world.png);
     background-repeat: no-repeat;
     background-position: center;
+    padding-left: 150px;
 }
 
-.h2{
+.h2 {
     width: 50vw;
     font-size: 24px;
     color: #fff;
     gap: 20px;
-    justify-content: center;
-    display: flex;      
+    display: flex;
+    flex-direction: column;
 }
 
-.icons{
+.icons {
     display: flex;
     justify-content: flex-end;
     background-color: #000;
     height: 20px;
 }
 
-.cabecalho{
+.cabecalho {
     color: #fff;
     justify-content: space-between;
     display: flex;
@@ -34,7 +35,7 @@ body{
     width: 90%;
 }
 
-.buton{
+.button {
     background-color: #C83C35;
     font-size: 10px;
     gap: 16px;
@@ -46,43 +47,54 @@ body{
     transition: 0.3s ease;
 }
 
-.buton:hover{
+.button-2 img{
+    gap: 16px;
+    display: flex;
+    background-size: cover;
+    justify-content: space-between;
+}
+
+.buton:hover {
     transform: translateY(-10px);
 }
 
-.Buttons:hover{
+.Buttons:hover {
     transform: translateY(-10px);
 }
 
-.header{
+.header {
     display: flex;
     gap: 20px;
     position: relative;
     justify-content: center;
-    
+
 }
 
-.visual{
+.visual {
     display: flex;
     justify-content: right;
+
 }
 
-.logo img{
+.logo img {
     display: flex;
     justify-content: left;
     height: 200px;
     align-items: center;
 }
 
-main{
+main {
     display: flex;
     width: 100vw;
     align-items: right;
     flex-direction: column;
     gap: 20px;
-
+    text-align: center;
+    margin-top: 200px;
 }
 
-.main img{
-
+.main img {
+    max-width: 200px;
+    display: block;
+    margin: 0 auto;
 }
