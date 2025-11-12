@@ -1,6 +1,5 @@
 body {
     height: 100vh;
-    margin: 0;
     font-family: Oxanium;
     background-size: cover;
     background-image: url(./img/Apex\ world.png);
@@ -79,9 +78,9 @@ body {
     display: flex;
     position: fixed;
     top: 16%;
-    right: -65%;
+    right: -52%;
     width: 100%;
-    padding-top: 260px;
+    padding-top: -50%;
 
 }
 
