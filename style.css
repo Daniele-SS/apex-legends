@@ -74,11 +74,10 @@ body {
 
 .visual {
     display: flex;
-    position: fixed;
+    position: absolute;
     top: 16%;
-    right: -52%;
-    width: 100%;
-    padding-top: 1vh;
+    right: 0;
+    padding-top: 20vh;
 
 }
 
