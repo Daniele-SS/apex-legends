@@ -77,12 +77,11 @@ body {
 
 .visual {
     display: flex;
-    position: absolute;
+    position: fixed;
     top: 16%;
-    right: -57%;
+    right: -65%;
     width: 100%;
-    z-index: 9999;
-
+    padding-top: 260px;
 
 }
 
